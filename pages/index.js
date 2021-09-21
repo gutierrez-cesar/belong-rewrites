@@ -1,5 +1,5 @@
-import styles from '../styles.module.css'
-import Link from 'next/link'
+import styles from "../styles.module.css"
+import Link from "next/link"
 
 const Code = (p) => <code className={styles.inlineCode} {...p} />
 
@@ -9,10 +9,10 @@ const Index = () => (
       <h1>Rewrites with Next.js</h1>
       <hr className={styles.hr} />
       <p>
-        The links below are{' '}
+        The links below are{" "}
         <a href="https://nextjs.org/docs/api-reference/next.config.js/rewrites">
           custom <Code>rewrites</Code>
-        </a>{' '}
+        </a>{" "}
         that map an incoming request path to a different destination path.
       </p>
       <nav>
@@ -38,7 +38,7 @@ const Index = () => (
             </Link>
           </li>
           <li>
-            <a href="/docs/page">Visit External URL</a>
+            <a href="/homeowners">Visit External URL</a>
           </li>
         </ul>
       </nav>
